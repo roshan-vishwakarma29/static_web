@@ -1,0 +1,62 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(17, 46, 75);
+    color: #fff;
+    padding: 80px 20px 170px 20px;
+}
+
+.unorderlist {
+    list-style: none;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.allicons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.iconimg {
+    width: 30px;
+    border-radius: 25px 25px;
+}
+
+.head {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Contact_Uspara {
+    padding: 10px 10px 10px 0px;
+}
+
+.Contact_Us {
+    padding: 0px 10px 10px 0px;
+}
+
+.footer_end {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Certified_Risk{
+    font-family: Poppins_ExtraLight;
+    font-size: 18px;
+    
+}

@@ -1,0 +1,111 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.containers {
+    padding: 20px 20px 20px 20px;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.sign {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 25px;
+    padding: 0px 20px 40px 10px;
+}
+
+.sign>a {
+    margin-right: 30px;
+    color: gray;
+    text-decoration: none;
+    font-family: Poppins-ExtraBold;
+}
+
+.sign>a:hover {
+    color: rgb(66, 154, 233)
+}
+
+.veoci_img {
+    width: 80%;
+    padding-left: 30px;
+
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+
+.language {
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Poppins_ExtraLight;
+    background-color: whitesmoke;
+}
+
+.fa-search {
+    height: 50px;
+    padding-left: 20px;
+    padding: 25px;
+    font-weight: 400;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn_primary {
+    padding: 15px 20px;
+    color: white;
+    border-radius: 55px;
+    border: none;
+    font-family: Poppins_medium;
+    background-color: rgb(66, 154, 233);
+}
+
+.search_btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.search_box {
+    margin-right: 15px;
+}
+
+@media screen and (max-width:1080px) {
+    .navbar {
+        display: grid;
+        grid-template-columns: 2fr 1fr ;
+        margin: auto;
+    }
+
+    .btn_primary {
+     padding-left: 0px;
+        width: 120%;
+    }
+}
+@media screen and (max-width:992px) {
+    .dropdown{
+        display: none;
+    }
+    .search_btn{
+        display: none;
+    }
+    .sign{
+        display: none;
+    }
+}

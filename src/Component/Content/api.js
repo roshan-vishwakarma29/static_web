@@ -1,0 +1,1 @@
+export const sentence =  ["Ready.","Redefined.","Reinvented.","Realized."]

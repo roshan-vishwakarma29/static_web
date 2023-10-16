@@ -1,0 +1,165 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.content_page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 80px 100px 50px 100px;
+}
+
+.Response {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Poppins_bold;
+    line-height: 1.5;
+    color: rgb(49, 103, 150);
+}
+
+.Veoci_para {
+    padding-top: 50px;
+    font-size: 18px;
+    font-family: Poppins_Medium;
+    color: rgb(49, 103, 150);
+    line-height: 1.5;
+}
+
+
+.image_div>img {
+    width: 100%;
+}
+
+.Export_by_Industry {
+    color: aliceblue;
+    background-color: rgb(49, 103, 150);
+    padding: 15px 25px 15px 25px;
+    border-radius: 25px;
+    width: 250px;
+}
+
+.Export_by_Solution {
+    color: rgb(49, 103, 150);
+    background-color: #fff;
+    padding: 15px 25px 15px 25px;
+    border-radius: 25px;
+    width: 250px;
+}
+
+.btn_div {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+@media screen and (max-width:1080px) {
+    .content_page {
+        padding: 30px 30px 30px 30px;
+    }
+
+    .Response {
+        font-size: 45px;
+    }
+
+    .Veoci_para {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    .btn_div {
+        padding-top: 20px;
+        gap: 15px;
+    }
+
+    .Response {
+        font-weight: 900;
+        font-family: poppin_medium;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .Response {
+        font-size: 40px;
+    }
+
+    .btn_div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Veoci_para {
+        font-size: 13px;
+    }
+
+    .Export_by_Industry>span {
+        font-size: 20px;
+    }
+
+    .Export_by_Industry {
+        width: 60%;
+    }
+
+
+    .Export_by_Solution>span {
+        font-size: 20px;
+    }
+
+    .Export_by_Solution {
+        width: 60%;
+    }
+
+
+
+    .btn_div {
+        /* flex-direction: row; */
+    }
+}
+
+@media screen and (max-width:768px) {
+    .content_page {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .Response {
+        font-size: 45px;
+    }
+
+    .btn_div {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .Response {
+        line-height: 1.2;
+    }
+
+    .Export_by_Industry>span {
+        font-size: 12px;
+    }
+
+    .Export_by_Industry {
+        width: 60%;
+    }
+
+
+    .Export_by_Solution>span {
+        font-size: 12px;
+    }
+
+    .Export_by_Solution {
+        width: 60%;
+    }
+
+}

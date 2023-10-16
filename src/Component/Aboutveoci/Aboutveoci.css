@@ -1,0 +1,55 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.learn_more {
+    padding-top: 40px;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Poppins_ExtraLight;
+    /* font-weight: 900; */
+}
+
+.colorfull_img {
+    background-image: url('../../Assets/image/brounimg.png');
+    width: 100%;
+    height: 100vh;
+}
+
+.grid_cal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 25px 20px 10px 20px;
+}
+
+.veoci_div {
+    background-color: #fff;
+   border-radius: 20px;
+    transition: 0.5s;
+    
+}
+
+.paragraph {
+    background-color: aliceblue;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: rgb(84, 84, 84);
+}
+
+.paragraph {
+    padding: 30px 30px 60px 30px;
+}
+
+.veoci_div:hover{
+    transform: scale(1.04);
+}
